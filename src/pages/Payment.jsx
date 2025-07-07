@@ -4,7 +4,7 @@ export default function Payment() {
   const navigate = useNavigate();
 
   const handleUPIPayment = () => {
-    const upiLink = `upi://pay?pa=you@upi&pn=DigsoftPay&am=100&cu=INR`;
+    const upiLink = `upi://pay?pa=evibhav@okicici&pn=DigsoftPay&am500&cu=INR`;
     window.location.href = upiLink;
     setTimeout(() => navigate('/confirm'), 3000);
   };
