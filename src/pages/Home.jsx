@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-4">Appointment For Dr V. W. Verlekar @ Digsoft Pay</h1>
       <p className="mb-4">Fast and secure UPI & online payment gateway</p>
       <Link to="/pay" className="bg-blue-600 text-white px-6 py-2 rounded-xl shadow hover:bg-blue-700">
-        Make a Payment
+        Book Consultation & Treatment Voucher
       </Link>
     </div>
   );
